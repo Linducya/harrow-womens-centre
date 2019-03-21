@@ -10,5 +10,5 @@ setInterval(function() {
     currentSlide = 0;
   }
 
-  slideHolder.style.left = `${-100 * currentSlide}%`;
+  slideHolder.style.top = `${-100 * currentSlide}%`;
 }, 7000)
