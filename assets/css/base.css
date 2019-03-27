@@ -10,6 +10,10 @@ header, nav, section  {
 font-family: 'Karla', sans-serif;
 }
 
+p {
+  padding: 5%;
+}
+
 ul {
 /*	list-style-type: none;*/
 	margin: 0 10% 0 10%;

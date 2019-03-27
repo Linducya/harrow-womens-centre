@@ -9,28 +9,52 @@
 	justify-content:	space-evenly;
 }
 
+iframe {
+  width: 90%;
+  height: 40%;
+}
+
 .events {
-	background-color: lightgreen;
+	background-color: #70947E;
 	grid-row: 1 / span 2;
 	/*grid-area: 1 / 1 / span 1 / span 2;*/
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
 }
 
 .counselling {
-	background-color: maroon;
+	background-color: #7E0211;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .advice {
-	background-color: grey;
+	background-color: #8EA1B0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .volunteer {
 	background-color: #8C528C;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .donate {
-	background-color: orange;
+	background-color: #F5A623;
+	/*display: flex;*/
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	/*text-align: left;*/
 }
 
+p.donate {
+	  font-size: 20px;
+}
 .box {
 		border-radius: 5px;
 }
