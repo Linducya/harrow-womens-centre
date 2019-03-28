@@ -46,6 +46,7 @@ iframe {
 
 .donate {
 	background-color: #F5A623;
+	/*#F58220* JustGiving Orange - secondary color/
 	/*display: flex;*/
 	/*align-items: center;*/
 	/*justify-content: center;*/
@@ -54,7 +55,14 @@ iframe {
 
 p.donate {
 	  font-size: 20px;
+	  /*purple look is #AD29B6*/
 }
+
+div.justgiving {
+	color: #AD29B6;
+	background-color: white;
+}
+
 .box {
 		border-radius: 5px;
 }
