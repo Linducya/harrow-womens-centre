@@ -23,6 +23,17 @@ iframe {
 	justify-content: center;*/
 }
 
+p.events {
+	float: left;
+}  
+
+ul.events {
+	float: left;
+}
+
+li.upevents {
+	list-style-type: square;
+}
 .counselling {
 	background-color: #7E0211;
 	display: flex;
@@ -65,5 +76,5 @@ div.justgiving {
 }
 
 .box {
-		border-radius: 5px;
+	border-radius: 5px;
 }
