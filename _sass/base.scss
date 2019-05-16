@@ -1,6 +1,6 @@
 header, section {
 	color: white;
-	font-size: 25px;
+	font-size: 1.5em; /*  24px with base fo 16px */
 	text-align: center;
 	margin: auto;
 	width: 80%;
@@ -29,4 +29,15 @@ ul li {
 
 ul li a:hover {
     opacity: .7;
+}
+
+@media only screen and (max-width:960px) {
+	section {
+		font-size: 1em;
+	}
+
+	body {
+		background-color: lightblue;
+		
+	}
 }

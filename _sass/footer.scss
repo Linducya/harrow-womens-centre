@@ -1,31 +1,31 @@
 footer {
 	background-color: #D9D5F8;
 	height: 200px;
-	padding: 10px;	
+	padding: 2%;	
 }
 
 .contact {
 	color: #575658; 
-	padding: 10px;
+	padding: 2%;
 }
 
-p.contact__address {
-	font-size: 20px;
+.contact__address {
+	font-size: .75em;
+	padding: 2%;
 }
 
 .footer__headline {
 	color: #575658; 
 }
 
-.contact__address {
-	padding: 10px;
-}
 .contact__tel {
 	float: left;
+	padding: 2%;
 }
 
 .contact__reachus{
 	float:	right;
+	padding: 2%;
 }
 
 
