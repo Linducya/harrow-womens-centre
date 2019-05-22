@@ -1,5 +1,17 @@
+// COLOR VARIABLES
+$white: #FFF;
+$lilac: #d9d5f8;
+$grey: #575658;
+// $background-white: #FFF;
+
+// TYPOGRAPHY VARIABLES
+$primary-font: 'Karla', sans-serif;
+
+// NUMERICAL VARIABLES
+$default-padding: 2%;
+
 header, section {
-	color: white;
+	color: $white;
 	font-size: 1.5em; /*  24px with base fo 16px */
 	text-align: center;
 	margin: auto;
@@ -7,7 +19,7 @@ header, section {
 }
 
 header, nav, section  {
-font-family: 'Karla', sans-serif;
+font-family: $primary-font;
 }
 
 p {
@@ -15,20 +27,17 @@ p {
 }
 
 ul {
-/*	list-style-type: none;*/
 	margin: 0 10% 0 10%;
 	overflow: hidden;
-}
-
-ul li {
+  li { 
 	display: inline;
-	margin-right: 10px;
-	list-style-type: none;
-	float: left;
-}
-
-ul li a:hover {
-    opacity: .7;
+	// float: left; //property ignored due to display:inline?
+	padding-right: 1em;
+	// list-style-type: none;
+  }
+  a:hover {
+	opacity: .7;
+  }
 }
 
 @media only screen and (max-width:960px) {

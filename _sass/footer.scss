@@ -1,31 +1,31 @@
 footer {
-	background-color: #D9D5F8;
+	background-color: $lilac;
 	height: 200px;
-	padding: 2%;	
+	padding: $default-padding;	
 }
 
 .contact {
-	color: #575658; 
-	padding: 2%;
+	color: $grey; 
+	padding: $default-padding;
 }
 
 .contact__address {
 	font-size: .75em;
-	padding: 2%;
+	padding: $default-padding;
 }
 
 .footer__headline {
-	color: #575658; 
+	color: $grey; 
 }
 
 .contact__tel {
 	float: left;
-	padding: 2%;
+	padding: $default-padding;
 }
 
 .contact__reachus{
 	float:	right;
-	padding: 2%;
+	padding: $default-padding;
 }
 
 
